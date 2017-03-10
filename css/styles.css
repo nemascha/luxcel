@@ -1,24 +1,21 @@
+.content{
+	margin-left: 20px;
+	margin-top: 10px;
+}
 .wrapper{
-	max-width: 950px;
-	margin: auto;
+	width: 950px;
 }
 .top{
-	display: block;
-	padding-top: 20px;
-	height: 200px;
+	padding: 0;
+	margin: 0;
 }
 .menu-item:not(:last-child):after{
 	content: "|";
 	color: #4fbde1;
 }
-.right-nav{
+.right-nav {
 	float: right;
-}
-ul .right-nav {
-	margin-right: 0px;
-	padding-right: 0px;
 	list-style: none;
-	border-bottom: none;
 }
 .right-nav li{
 	display: inline;
@@ -31,17 +28,20 @@ ul .right-nav {
 	padding: 10px;
 	color: #174f73;
 }
+.right-nav a:hover{
+	text-decoration: none;
+}
 .banner-top{
 	border-top-width: 5px;
 	border-top-style: solid;
 	border-top-color: #a6a9d6; 
 }
 .head-nav{
-	margin-top: -5px;
-	padding: 0;
+	padding-left: 120px;
+	margin-top: -3px;
 	list-style-type: none;
 	height: 40px;
-	max-width: 950px;
+	width: 830px;
 	background: linear-gradient(to top, #a6a9d6, #f2f2f9);
 	text-align: center;
 }
@@ -67,9 +67,6 @@ ul .right-nav {
 .sidebar{
 	float: left;
 }
-.main{
-	margin-left: 200px;
-}
 .line{
 	border-top: 3px solid grey;
 	border-bottom: 3px solid grey;
@@ -80,7 +77,7 @@ ul .right-nav {
 	padding: 10px;
 	
 }
-.main-nav li{
+.bott-nav li{
 	display: inline;
 }
 footer{
