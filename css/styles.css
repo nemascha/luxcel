@@ -70,15 +70,24 @@
 .line{
 	border-top: 3px solid grey;
 	border-bottom: 3px solid grey;
-	
 }
 .photo{
 	float: left;
 	padding: 10px;
-	
 }
 .bott-nav li{
 	display: inline;
+	font-family: Calibri, sans-serif;
+	font-size: 14px;
+}
+.bott-nav a{
+	display: inline;
+	border: none;
+	padding: 10px;
+	color: #174f73;
+}
+.bott-nav a:hover{
+	text-decoration: none;
 }
 .bottom{
 	background-color: #7472b2;
