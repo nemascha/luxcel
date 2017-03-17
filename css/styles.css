@@ -4,6 +4,7 @@
 }
 .wrapper{
 	width: 950px;
+	height: 1000px;
 }
 .top{
 	padding: 0;
@@ -65,7 +66,39 @@
 	color: #ffffff;
 }
 .sidebar{
+	margin-top: -15px;
+	width: 180px;
+	height: 800px;
+	background-color: #e8e7f0;
 	float: left;
+}
+.sidebar h3{
+	margin-top: -1px;
+	padding-left: 30px;
+	padding-top: 7px;
+	background-color: #7472b2;
+	height: 30px;
+	font-family: Calibri, sans-serif;
+	color: white;
+	}
+.nav-bar li{
+	list-style-image: url(../images/bullet.png);
+	line-height: 2em;
+}
+.nav-bar a{
+	font-family: Calibri, sans-serif;
+	color: #174f73;
+}
+.nav-bar a:hover{
+	text-decoration: none;
+}
+.main-content{
+	margin-left: 220px;
+}
+.main-content h2{
+	font-family: Calibri, sans-serif;
+	color: #174f73;
+	font-size: 36px;
 }
 .line{
 	border-top: 3px solid grey;
@@ -73,7 +106,10 @@
 }
 .photo{
 	float: left;
-	padding: 10px;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
 }
 .bott-nav li{
 	display: inline;
@@ -101,12 +137,24 @@
 	font-style: normal;
 	text-align: start;
 }
+.contacts{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: -40px;
+}
 .contacts li{
 	display: inline;
 }
 .contacts a{
 	border-bottom: none;
 	text-decoration: none;
+	color: white;
+}
+.contacts a:hover{
+	text-decoration: underline; 
+}
+.contact-menu-item:not(:last-child):after{
+	content: "|";
 	color: white;
 }
 .logo-bott{
