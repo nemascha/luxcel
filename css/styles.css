@@ -4,7 +4,7 @@
 }
 .wrapper{
 	width: 100%;
-	height: 1000px;
+	min-height: 1000px;
 }
 .top{
 	padding: 0;
@@ -40,7 +40,6 @@
 .head-nav{
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 10%;
 	margin-top: -3px;
 	list-style-type: none;
 	height: 40px;
@@ -67,6 +66,7 @@
 	color: #ffffff;
 }
 .sidebar{
+	display: block;
 	margin-top: -16px;
 	width: 20%;
 	height: 765px;
@@ -80,7 +80,7 @@
 	height: 30px;
 	font-family: Calibri, sans-serif;
 	color: white;
-	}
+}
 .nav-bar .bullet{
 	list-style-image: url(../images/bullet.png);
 	line-height: 2em;
@@ -93,8 +93,7 @@
 	text-decoration: none;
 }
 .main-content{
-	margin-left: 220px;
-}
+	}
 .main-content .main-content-heading{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
@@ -113,7 +112,7 @@
 .bott-nav{
 	display: flex;
 	flex-flow: row;
-	justify-content: center;
+	justify-content: space-between;
 	list-style-type: none;
 }
 .bott-nav .menu-item{
