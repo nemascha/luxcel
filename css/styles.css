@@ -92,13 +92,12 @@
 .nav-bar .nav-bar-link:hover{
 	text-decoration: none;
 }
-.main-content{
-	}
 .main-content .main-content-heading{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
 	font-size: 36px;
 }
+
 .line{
 	border-top: 3px solid grey;
 	border-bottom: 3px solid grey;
