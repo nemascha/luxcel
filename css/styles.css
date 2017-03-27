@@ -41,6 +41,7 @@
 .head-nav{
 	display: flex;
 	justify-content: flex-end;
+	padding-right: 10%;
 	margin-top: -3px;
 	list-style-type: none;
 	height: 40px;
@@ -67,6 +68,7 @@
 	color: #ffffff;
 }
 .sidebar{
+	position: absolute;
 	margin-top: -16px;
 	width: 20%;
 	min-height: 765px;
@@ -92,12 +94,14 @@
 .nav-bar .nav-bar-link:hover{
 	text-decoration: none;
 }
+.main-content{
+	margin-left: 240px;
+}
 .main-content .main-content-heading{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
 	font-size: 36px;
 }
-
 .line{
 	border-top: 3px solid grey;
 	border-bottom: 3px solid grey;
