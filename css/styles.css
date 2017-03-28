@@ -67,8 +67,11 @@
 .head-nav .head-nav-link:hover{
 	color: #ffffff;
 }
+.page{
+	display: flex;
+}
 .sidebar{
-	position: absolute;
+	flex: 1;
 	margin-top: -16px;
 	width: 20%;
 	min-height: 765px;
@@ -95,7 +98,10 @@
 	text-decoration: none;
 }
 .main-content{
-	margin-left: 240px;
+	flex: 4;
+	display: flex;
+	flex-flow: column;
+	padding-left: 40px;
 }
 .main-content .main-content-heading{
 	font-family: Calibri, sans-serif;
@@ -104,8 +110,8 @@
 	border-bottom: 3px solid grey;
 	padding: 10px;
 }
-.photo-heading{
-	clear: both;
+.person{
+	overflow: auto;
 }
 .photo{
 	float: left;
@@ -115,7 +121,6 @@
 .bott-nav{
 	display: flex;
 	flex-flow: row;
-	justify-content: space-between;
 	list-style-type: none;
 	border-top: 3px solid grey;
 	padding: 10px;
