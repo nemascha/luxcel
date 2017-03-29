@@ -1,11 +1,14 @@
+*{
+	all: unset;
+}
 .content{
-	margin-left: 20px;
-	margin-top: 10px;
+	margin-left: 0;
+	margin-top: 0;
 }
 .wrapper{
 	width: 100%;
 	min-height: 1000px;
-	display: flex;
+	display: flex; 
 }
 .top{
 	padding: 0;
@@ -18,6 +21,7 @@
 .right-nav {
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 10px;
 	list-style: none;
 }
 .right-nav .menu-item{
@@ -25,12 +29,15 @@
 	font-size: 14px;
 }
 .right-nav .right-nav-link{
-	border: none;
+	text-decoration: underline;
 	padding: 10px;
 	color: #174f73;
 }
 .right-nav .right-nav-link:hover{
 	text-decoration: none;
+}
+.logo{
+	margin-left: 10px;
 }
 .banner-top{
 	width: 100%;
@@ -42,7 +49,6 @@
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 10%;
-	margin-top: -3px;
 	list-style-type: none;
 	height: 40px;
 	background: linear-gradient(to top, #a6a9d6, #f2f2f9);
@@ -72,13 +78,14 @@
 }
 .sidebar{
 	flex: 1;
-	margin-top: -16px;
+	display: flex;
+	flex-flow: column;
 	width: 20%;
 	min-height: 765px;
 	background-color: #e8e7f0;
+	line-height: 2;
 }
 .sidebar .sidebar-heading{
-	margin-top: -1px;
 	padding-left: 30px;
 	padding-top: 7px;
 	background-color: #7472b2;
@@ -86,13 +93,21 @@
 	font-family: Calibri, sans-serif;
 	color: white;
 }
-.nav-bar .bullet{
-	list-style-image: url(../images/bullet.png);
-	line-height: 2em;
+.nav-bar{
+	display: flex;
+	flex-flow: column;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.nav-bar .bullet:before{
+	content: url(../images/bullet.png);
+	
 }
 .nav-bar .nav-bar-link{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
+	text-decoration: underline;
+	padding-left: 5px;
 }
 .nav-bar .nav-bar-link:hover{
 	text-decoration: none;
@@ -108,26 +123,46 @@
 	color: #174f73;
 	font-size: 36px;
 	border-bottom: 3px solid grey;
-	padding: 10px;
+	padding: 20px;
 }
 .person{
-	overflow: auto;
+	padding-top: 40px;
 }
+.person:after{
+	content: "";
+    display: table;
+    clear: both;
+ }
 .photo{
 	float: left;
 	padding: 0;
-	margin: 0 20px 20px 0;
+	padding: 20px 20px 20px 0;
+}
+.paragraph{
+	display: block;
+	padding-top: 10px;
+	font-family: Calibri, sans-serif;
+	line-height: 1.5;
+}
+.photo-heading{
+	display: block;
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	padding-bottom: 30px;
+	color: #7472bd; 
 }
 .bott-nav{
 	display: flex;
 	flex-flow: row;
 	list-style-type: none;
 	border-top: 3px solid grey;
-	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-top: 80px;
 }
 .bott-nav .menu-item{
 	font-family: Calibri, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 .bott-nav .bott-nav-link{
 	border: none;
@@ -153,11 +188,6 @@
 	color: white;
 	font-style: normal;
 	text-align: start;
-}
-.contacts{
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: -40px;
 }
 .contacts .contact-menu-item{
 	display: inline;
