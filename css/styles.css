@@ -75,11 +75,15 @@
 .page{
 	display: flex;
 }
+@media screen and (max-width: 768px){
+	.sidebar{
+		max-width: 150px;
+	}
+}
 .sidebar{
-	flex: 1;
+	flex: 2;
 	display: flex;
 	flex-flow: column;
-	width: 20%;
 	min-height: 765px;
 	background-color: #e8e7f0;
 	line-height: 2;
@@ -112,7 +116,7 @@
 	text-decoration: none;
 }
 .main-content{
-	flex: 4;
+	flex: 7;
 	display: flex;
 	flex-flow: column;
 	padding-left: 40px;
