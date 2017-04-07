@@ -100,7 +100,6 @@
 }
 .nav-bar .bullet:before{
 	content: url(../images/bullet.png);
-	
 }
 .nav-bar .nav-bar-link{
 	font-family: Calibri, sans-serif;
@@ -117,6 +116,36 @@
 	flex-flow: column;
 	padding-left: 40px;
 }
+.breadcrumb{
+	margin: 10px;
+	padding: 0;
+}
+.breadcrumb .breadcrumb-el{
+	display: inline-block;
+	padding: 5px;
+}
+.breadcrumb .breadcrumb-link{
+	font-family: Calibri, sans-serif;
+	color: #174f73;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.breadcrumb .breadcrumb-link:after{
+	content: "	>";
+	color: #4fbde1;
+	font-size: 14px;
+	font-weight: bold;
+}
+.breadcrumb .breadcrumb-link:hover{
+	text-decoration: none;
+}
+.breadcrumb .active{
+	font-family: Calibri, sans-serif;
+	color: #174f73;
+	text-decoration: none;
+	font-size: 14px;
+}
+
 .main-content .main-content-heading{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
