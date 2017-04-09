@@ -120,8 +120,10 @@
 	margin: 10px;
 	padding: 0;
 }
+.breadcrumb-list{
+	display: flex;
+}
 .breadcrumb .breadcrumb-el{
-	display: inline-block;
 	padding: 5px;
 }
 .breadcrumb .breadcrumb-link{
@@ -140,12 +142,12 @@
 	text-decoration: none;
 }
 .breadcrumb .active{
+	padding: 5px;
 	font-family: Calibri, sans-serif;
 	color: #174f73;
 	text-decoration: none;
 	font-size: 14px;
 }
-
 .main-content .main-content-heading{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
