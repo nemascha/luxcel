@@ -85,6 +85,7 @@
 	display: flex;
 	flex-flow: column;
 	min-height: 765px;
+	min-width: 160px;
 	background-color: #e8e7f0;
 	line-height: 2;
 }
@@ -100,19 +101,23 @@
 	display: flex;
 	flex-flow: column;
 	padding-top: 20px;
-	padding-left: 10px;
-}
-.nav-bar .bullet:before{
-	content: url(../images/bullet.png);
-	
+	padding-left: 5px;
 }
 .nav-bar .nav-bar-link{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
 	text-decoration: underline;
-	padding-left: 5px;
+	padding-left: 30px;
+	background-image: url(../images/bullet1.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px;
 }
 .nav-bar .nav-bar-link:hover{
+	background-image: url(../images/bullet1.png);
+	background-repeat: no-repeat;
+	background-position: 0 -5px;
+}
+.nav-bar .nav-bar-link:active{
 	text-decoration: none;
 }
 .main-content{
