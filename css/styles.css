@@ -2,6 +2,8 @@
 	display: none;
 }
 .content{
+	display: flex;
+	flex-flow: column;
 	margin-left: 0;
 	margin-top: 0;
 }
@@ -176,18 +178,27 @@
 	background-color: #7472b2;
 	height: 70px;
 }
-.logo-bott{
-	flex: 1;
+.communication{
+	display: flex;
+	flex-flow: column;
+	flex: 6;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	color: white;
+	font-style: normal;
 }
 .contact-info{
-	flex: 6;
-	padding: 10px;
-	font-family: Verdana, "Times New Roman";
+	font-family: Verdana, sans-serif;
 	font-size: 12px;
 	color: white;
 	font-style: normal;
 	text-align: start;
 	line-height: 1.5;
+}
+.contacts{
+	padding-top: 5px;
 }
 .contacts .contact-menu-item{
 	display: inline;
@@ -205,5 +216,6 @@
 	color: white;
 }
 .logo-bott{
+	flex: 1;
 	padding: 20px;
 }
