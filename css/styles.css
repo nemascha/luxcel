@@ -128,19 +128,19 @@
 	color: #174f73;
 	font-size: 14px;
 }
-.breadcrumb .breadcrumb-link{
-	font-family: Calibri, sans-serif;
-	color: #174f73;
-	text-decoration: underline;
-	font-size: 14px;
-}
-.breadcrumb .breadcrumb-link:after{
+.breadcrumb .breadcrumb-el:after{
 	content: ">";
 	padding: 10px;
 	color: #4fbde1;
 	font-size: 12px;
 	font-weight: bold;
 	text-decoration: none;
+}
+.breadcrumb .breadcrumb-link{
+	font-family: Calibri, sans-serif;
+	color: #174f73;
+	text-decoration: underline;
+	font-size: 14px;
 }
 .breadcrumb .breadcrumb-link:hover{
 	text-decoration: none;
