@@ -116,19 +116,16 @@
 	flex-flow: column;
 	padding-left: 40px;
 }
-.breadcrumb{
-	margin: 0;
-	padding: 10px;
-}
 .breadcrumb-list{
 	display: flex;
+	margin-top: 10px;
 }
 .breadcrumb-el{
 	font-family: Calibri, sans-serif;
 	color: #174f73;
 	font-size: 14px;
 }
-.breadcrumb .breadcrumb-el:after{
+.breadcrumb .breadcrumb-el:not(:last-child):after{
 	content: ">";
 	padding: 10px;
 	color: #4fbde1;
