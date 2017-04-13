@@ -46,7 +46,7 @@
 	border-top-style: solid;
 	border-top-color: #a6a9d6; 
 }
-.head-nav{
+}.head-nav{
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 5%;
