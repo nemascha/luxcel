@@ -14,11 +14,6 @@
 	padding: 0;
 	margin: 0;
 }
-@media screen and (max-width: 480px) {
-	.head-nav {
-		display: none;
-	}
-}
 .menu-item:not(:last-child):after{
 	content: "|";
 	color: #4fbde1;
@@ -78,6 +73,14 @@
 	background: linear-gradient(to top, #226a96, #c6e1ec);
 	color: #ffffff;
 }
+@media screen and (max-width: 760px) {
+	.right-nav,
+	.banner-top,
+	.head-nav {
+		display: none;
+	}
+}
+
 .page{
 	display: flex;
 }
