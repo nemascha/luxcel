@@ -46,7 +46,7 @@
 	border-top-style: solid;
 	border-top-color: #a6a9d6; 
 }
-}.head-nav{
+.head-nav{
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 5%;
@@ -74,11 +74,6 @@
 }
 .page{
 	display: flex;
-}
-@media screen and (max-width: 768px){
-	.sidebar{
-		max-width: 150px;
-	}
 }
 .sidebar{
 	flex: 2;
@@ -119,6 +114,11 @@
 }
 .nav-bar .nav-bar-link:active{
 	text-decoration: none;
+}
+@media screen and (max-width: 768px){
+	.sidebar{
+		max-width: 150px;
+	}
 }
 .main-content{
 	flex: 7;
