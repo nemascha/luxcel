@@ -173,11 +173,6 @@
 .bott-nav .bott-nav-link:hover{
 	text-decoration: none;
 }
-@media screen and (max-width: 480px){
-	.contact-info{
-		display: none;
-	}
-}
 .bottom{
 	display: flex;
 	background-color: #7472b2;
@@ -223,4 +218,10 @@
 .logo-bott{
 	flex: 1;
 	padding: 20px;
+}
+@media screen and (max-width: 760px) {
+	.contact-info,
+	.logo-bott {
+		display: none;
+	}
 }
