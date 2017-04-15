@@ -196,6 +196,14 @@
 .bott-nav .bott-nav-link:hover{
 	text-decoration: none;
 }
+@media screen and (max-width: 480px){
+	.bott-nav{
+		display: none;
+	}
+	.photo{
+		float: none;
+	}
+} 
 .bottom{
 	display: flex;
 	background-color: #7472b2;
