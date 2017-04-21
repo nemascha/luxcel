@@ -83,6 +83,7 @@
 	min-width: 160px;
 	background-color: #e8e7f0;
 	line-height: 2;
+	position: absolute;
 }
 .sidebar .sidebar-heading{
 	padding-left: 30px;
@@ -115,9 +116,19 @@
 .nav-bar .nav-bar-link:active{
 	text-decoration: none;
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 420px) and (max-width: 768px){
 	.sidebar{
 		max-width: 150px;
+	}
+}
+@media handheld and (max-width: 420px){
+	.sidebar{
+		margin-left: -145px;
+	}
+	.sidebar.active{
+		position: absolute;
+		max-width: 150px;
+		margin-left: 0;
 	}
 }
 .main-content{
