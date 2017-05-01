@@ -38,6 +38,7 @@
 	text-decoration: none;
 }
 .logo{
+	position: relative;
 	margin-left: 10px;
 }
 .banner-top{
@@ -80,10 +81,9 @@
 	}
 	.logo{
 		display: block;
-		margin: 0 auto;
+		text-align: center;
 	}
 }
-
 .page{
 	display: flex;
 }
