@@ -75,6 +75,20 @@
 .page{
 	display: flex;
 }
+.side-btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border: none;
+	background-color: #7472b2;
+}
+.side-btn:before{
+	content: "≡";
+	font-size: 54px;
+	color: #e8e7f0;
+}
 .sidebar{
 	flex: 2;
 	display: flex;
