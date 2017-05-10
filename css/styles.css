@@ -209,12 +209,18 @@
 .bott-nav .bott-nav-link:hover{
 	text-decoration: none;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 420px){
 	.bott-nav{
 		display: none;
 	}
 	.photo{
 		float: none;
+	}
+	.paragraph{
+		max-width: 420px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 }
 .bottom{
