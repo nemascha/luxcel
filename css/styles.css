@@ -138,7 +138,7 @@
 		max-width: 150px;
 	}
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 419px){
 	.side-btn{
 		display: block;
 		position: absolute;
@@ -147,7 +147,7 @@
 	.sidebar{
 		display: none;
 		top: 0;
-	}
+	} 
 	.side-menu .sidebar{
 		display: block;
 		position: absolute;
