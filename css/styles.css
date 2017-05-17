@@ -128,6 +128,7 @@
 	display: flex;
 	flex-flow: column;
 	padding-left: 40px;
+	max-width: 100%;
 }
 .breadcrumb-list{
 	display: flex;
@@ -163,6 +164,7 @@
 	padding: 20px;
 }
 .person{
+	width: 100%;
 	padding-top: 40px;
 }
 .person:after{
@@ -172,17 +174,18 @@
  }
 .photo{
 	float: left;
-	padding: 0;
 	padding: 20px 20px 20px 0;
 }
 .paragraph{
 	display: block;
+	width: 100%;
 	padding-top: 10px;
 	font-family: Calibri, sans-serif;
 	line-height: 1.5;
 }
 .photo-heading{
 	display: block;
+	width: 100%;
 	font-family: Calibri, sans-serif;
 	font-size: 20px;
 	padding-bottom: 30px;
@@ -210,6 +213,16 @@
 	text-decoration: none;
 }
 @media screen and (max-width: 420px){
+	.page{
+		width: 100%;
+	}
+	.sidebar{
+		position: fixed;
+	}
+	.main-content{
+		width: 100%;
+		padding: 0;
+	}
 	.bott-nav{
 		display: none;
 	}
