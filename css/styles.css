@@ -150,7 +150,7 @@
 	} 
 	.side-menu .sidebar{
 		display: block;
-		position: absolute;
+		position: fixed;
 	}  
 }
 .main-content{
