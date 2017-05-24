@@ -158,7 +158,7 @@
 @media screen and (max-width: 419px){
 	.side-btn{
 		display: block;
-		position: absolute;
+		position: fixed;
 		z-index: 2;
 	}
 	.sidebar{
@@ -167,7 +167,8 @@
 	} 
 	.side-menu .sidebar{
 		display: block;
-		position: absolute;
+		position: fixed;
+		top: 0;
 	}  
 }
 .main-content{
